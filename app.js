@@ -48,5 +48,6 @@ function buttonHandler(e) {
 	});
 	if(!Boolean(Number(isValid))) {
 		e.preventDefault()
+		return;
 	}
 }
